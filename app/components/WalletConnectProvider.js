@@ -15,7 +15,7 @@ export const WalletConnectProvider = ({ children }) => {
             {/*https://boldest-necessary-telescope.solana-devnet.quiknode.pro/d84334700a69839dc8ef8f3f17f82dc0541ed9df/
             https://api.devnet.solana.com        
         */}
-            return 'https://boldest-necessary-telescope.solana-devnet.quiknode.pro/d84334700a69839dc8ef8f3f17f82dc0541ed9df/'
+            return 'https://api.devnet.solana.com'
         }
 
         return clusterApiUrl(network)
