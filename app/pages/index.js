@@ -16,9 +16,9 @@ const Home = () => {
                     <div className={styles.todoInput}>
                         <div className={`${styles.todoCheckbox} ${styles.checked}`} />
                         <div className={styles.inputContainer}>
-                            
 
-                        <input value = {input} onChange={handleChange} id={styles.inputField} type="text" placeholder='Create a new todo...' />
+
+                        {/*<input value = {input} onChange={handleChange} id={styles.inputField} type="text" placeholder='Create a new todo...' />*/}
                         <button type="button" className={styles.button} onClick={()=> addTodo()}>
                         Create
                         </button>
